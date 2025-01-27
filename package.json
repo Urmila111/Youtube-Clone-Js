@@ -1,11 +1,11 @@
 {
   "name": "youtube-clone-js",
   "version": "1.0.0",
-  "description": "Project",
+  "description": "A backend clone of YouTube built with JavaScript",
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/main.js"
+    "dev": "nodemon -r dotenv/config src/main.js"
 
   },
   "keywords": [
