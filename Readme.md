@@ -1,1 +1,1 @@
-# This is project on backend with javascript.
+# A backend clone of YouTube.
