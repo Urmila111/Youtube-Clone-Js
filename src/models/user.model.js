@@ -4,7 +4,7 @@ import bcrypt from "bcrypt"
 
 const userSchema = new Schema(
     {
-    userName:{
+    username:{
        type: String, 
        required: true,
        unique: true,
@@ -19,7 +19,7 @@ const userSchema = new Schema(
         lowercase:true,
         trim: true,
      },
-     fullname:{
+     fullName:{
         type: String, 
         required: true,
         trim: true,
@@ -30,7 +30,7 @@ const userSchema = new Schema(
         required: true
      },
      coverImage:{
-        type: String, //cloudinary
+        type: String, //cloudinary url
      },
      watchHistory: [
         {
